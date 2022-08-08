@@ -1,0 +1,47 @@
+2022-08-08 09:54:09.236 +03:00 [INF]  Now listening on: https://localhost:7068
+2022-08-08 09:54:09.299 +03:00 [INF]  Now listening on: http://localhost:5068
+2022-08-08 09:54:09.304 +03:00 [INF]  Application started. Press Ctrl+C to shut down.
+2022-08-08 09:54:09.305 +03:00 [INF]  Hosting environment: Development
+2022-08-08 09:54:09.306 +03:00 [INF]  Content root path: C:\Users\mmfazrin\RiderProjects\SerilogDemo-main\SerilogDemo\
+2022-08-08 09:54:10.104 +03:00 [INF]  Request starting HTTP/2 GET https://localhost:7068/swagger - -
+2022-08-08 09:54:10.437 +03:00 [INF]  Request finished HTTP/2 GET https://localhost:7068/swagger - - - 301 0 - 340.5198ms
+2022-08-08 09:54:10.458 +03:00 [INF]  Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - -
+2022-08-08 09:54:10.672 +03:00 [INF]  Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 214.0408ms
+2022-08-08 09:54:10.750 +03:00 [INF]  Request starting HTTP/2 GET https://localhost:7068/swagger/swagger-ui.css - -
+2022-08-08 09:54:10.768 +03:00 [INF]  Request starting HTTP/2 GET https://localhost:7068/swagger/swagger-ui-standalone-preset.js - -
+2022-08-08 09:54:10.768 +03:00 [INF]  Request starting HTTP/2 GET https://localhost:7068/swagger/swagger-ui-bundle.js - -
+2022-08-08 09:54:10.963 +03:00 [INF]  Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-08-08 09:54:10.963 +03:00 [INF]  Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-08-08 09:54:10.986 +03:00 [INF]  Request finished HTTP/2 GET https://localhost:7068/swagger/swagger-ui.css - - - 200 143632 text/css 235.9520ms
+2022-08-08 09:54:10.986 +03:00 [INF]  Request finished HTTP/2 GET https://localhost:7068/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 217.9594ms
+2022-08-08 09:54:11.109 +03:00 [INF]  Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-08-08 09:54:11.110 +03:00 [INF]  Request finished HTTP/2 GET https://localhost:7068/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 341.5588ms
+2022-08-08 09:54:11.600 +03:00 [INF]  Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - -
+2022-08-08 09:54:11.696 +03:00 [INF]  Request starting HTTP/2 GET https://localhost:7068/swagger/favicon-32x32.png - -
+2022-08-08 09:54:11.697 +03:00 [INF]  Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-08-08 09:54:11.698 +03:00 [INF]  Request finished HTTP/2 GET https://localhost:7068/swagger/favicon-32x32.png - - - 200 628 image/png 1.5889ms
+2022-08-08 09:54:11.866 +03:00 [INF]  Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 266.4514ms
+2022-08-08 09:54:15.951 +03:00 [INF]  Request starting HTTP/2 GET https://localhost:7068/WeatherForecast - -
+2022-08-08 09:54:15.964 +03:00 [INF]  Executing endpoint 'SerilogDemo.Controllers.WeatherForecastController.Get (SerilogDemo)'
+2022-08-08 09:54:15.985 +03:00 [INF]  Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[SerilogDemo.WeatherForecast] Get() on controller SerilogDemo.Controllers.WeatherForecastController (SerilogDemo).
+2022-08-08 09:54:15.988 +03:00 [INF]  Weather Forecast executing...
+2022-08-08 09:54:15.997 +03:00 [INF]  Executing ObjectResult, writing value of type 'SerilogDemo.WeatherForecast[]'.
+2022-08-08 09:54:16.018 +03:00 [INF]  Executed action SerilogDemo.Controllers.WeatherForecastController.Get (SerilogDemo) in 24.1395ms
+2022-08-08 09:54:16.021 +03:00 [INF]  Executed endpoint 'SerilogDemo.Controllers.WeatherForecastController.Get (SerilogDemo)'
+2022-08-08 09:54:16.021 +03:00 [INF]  Request finished HTTP/2 GET https://localhost:7068/WeatherForecast - - - 200 - application/json;+charset=utf-8 70.4540ms
+2022-08-08 09:55:01.448 +03:00 [INF]  Request starting HTTP/2 GET https://localhost:7068/WeatherForecast - -
+2022-08-08 09:55:01.451 +03:00 [INF]  Executing endpoint 'SerilogDemo.Controllers.WeatherForecastController.Get (SerilogDemo)'
+2022-08-08 09:55:01.453 +03:00 [INF]  Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[SerilogDemo.WeatherForecast] Get() on controller SerilogDemo.Controllers.WeatherForecastController (SerilogDemo).
+2022-08-08 09:55:01.453 +03:00 [INF]  Weather Forecast executing...
+2022-08-08 09:55:01.455 +03:00 [INF]  Executing ObjectResult, writing value of type 'SerilogDemo.WeatherForecast[]'.
+2022-08-08 09:55:01.456 +03:00 [INF]  Executed action SerilogDemo.Controllers.WeatherForecastController.Get (SerilogDemo) in 3.1668ms
+2022-08-08 09:55:01.456 +03:00 [INF]  Executed endpoint 'SerilogDemo.Controllers.WeatherForecastController.Get (SerilogDemo)'
+2022-08-08 09:55:01.457 +03:00 [INF]  Request finished HTTP/2 GET https://localhost:7068/WeatherForecast - - - 200 - application/json;+charset=utf-8 11.3683ms
+2022-08-08 09:55:12.695 +03:00 [INF]  Request starting HTTP/2 GET https://localhost:7068/WeatherForecast - -
+2022-08-08 09:55:12.696 +03:00 [INF]  Executing endpoint 'SerilogDemo.Controllers.WeatherForecastController.Get (SerilogDemo)'
+2022-08-08 09:55:12.700 +03:00 [INF]  Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[SerilogDemo.WeatherForecast] Get() on controller SerilogDemo.Controllers.WeatherForecastController (SerilogDemo).
+2022-08-08 09:55:12.703 +03:00 [INF]  Weather Forecast executing...
+2022-08-08 09:55:12.704 +03:00 [INF]  Executing ObjectResult, writing value of type 'SerilogDemo.WeatherForecast[]'.
+2022-08-08 09:55:12.705 +03:00 [INF]  Executed action SerilogDemo.Controllers.WeatherForecastController.Get (SerilogDemo) in 2.9082ms
+2022-08-08 09:55:12.705 +03:00 [INF]  Executed endpoint 'SerilogDemo.Controllers.WeatherForecastController.Get (SerilogDemo)'
+2022-08-08 09:55:12.706 +03:00 [INF]  Request finished HTTP/2 GET https://localhost:7068/WeatherForecast - - - 200 - application/json;+charset=utf-8 11.0775ms

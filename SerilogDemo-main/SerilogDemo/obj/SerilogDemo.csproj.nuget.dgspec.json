@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mmfazrin\\RiderProjects\\SerilogDemo-main\\SerilogDemo\\SerilogDemo.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mmfazrin\\RiderProjects\\SerilogDemo-main\\SerilogDemo\\SerilogDemo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mmfazrin\\RiderProjects\\SerilogDemo-main\\SerilogDemo\\SerilogDemo.csproj",
+        "projectName": "SerilogDemo",
+        "projectPath": "C:\\Users\\mmfazrin\\RiderProjects\\SerilogDemo-main\\SerilogDemo\\SerilogDemo.csproj",
+        "packagesPath": "C:\\Users\\mmfazrin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mmfazrin\\RiderProjects\\SerilogDemo-main\\SerilogDemo\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mmfazrin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\mmfazrin\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/phcc-devops/cfa4142e-0ea2-48de-ab81-4ebec471d6cc/_packaging/PHCC-Backend-Feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[5.7.1, )"
+            },
+            "Serilog.Sinks.SQLite": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

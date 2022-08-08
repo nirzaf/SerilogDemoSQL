@@ -1,0 +1,17 @@
+2022-08-08 10:57:15.629 +03:00 [Information] Now listening on: "https://localhost:7068"
+2022-08-08 10:57:15.678 +03:00 [Information] Now listening on: "http://localhost:5068"
+2022-08-08 10:57:15.682 +03:00 [Information] Application started. Press Ctrl+C to shut down.
+2022-08-08 10:57:15.684 +03:00 [Information] Hosting environment: "Development"
+2022-08-08 10:57:15.685 +03:00 [Information] Content root path: "C:\Users\mmfazrin\RiderProjects\SerilogDemo-main\SerilogDemo\"
+2022-08-08 10:57:16.904 +03:00 [Information] Request starting HTTP/2 GET https://localhost:7068/swagger/index.html - -
+2022-08-08 10:57:17.250 +03:00 [Information] Request finished HTTP/2 GET https://localhost:7068/swagger/index.html - - - 200 - text/html;charset=utf-8 347.8225ms
+2022-08-08 10:57:17.557 +03:00 [Information] Request starting HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - -
+2022-08-08 10:57:17.690 +03:00 [Information] Request finished HTTP/2 GET https://localhost:7068/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 132.9202ms
+2022-08-08 10:57:46.036 +03:00 [Information] Request starting HTTP/2 GET https://localhost:7068/WeatherForecast - -
+2022-08-08 10:57:46.051 +03:00 [Information] Executing endpoint '"SerilogDemo.Controllers.WeatherForecastController.Get (SerilogDemo)"'
+2022-08-08 10:57:46.070 +03:00 [Information] Route matched with "{action = \"Get\", controller = \"WeatherForecast\"}". Executing controller action with signature "System.Collections.Generic.IEnumerable`1[SerilogDemo.WeatherForecast] Get()" on controller "SerilogDemo.Controllers.WeatherForecastController" ("SerilogDemo").
+2022-08-08 10:57:46.079 +03:00 [Information] Weather Forecast executing...
+2022-08-08 10:57:46.090 +03:00 [Information] Executing "ObjectResult", writing value of type '"SerilogDemo.WeatherForecast[]"'.
+2022-08-08 10:57:46.127 +03:00 [Information] Executed action "SerilogDemo.Controllers.WeatherForecastController.Get (SerilogDemo)" in 35.222ms
+2022-08-08 10:57:46.132 +03:00 [Information] Executed endpoint '"SerilogDemo.Controllers.WeatherForecastController.Get (SerilogDemo)"'
+2022-08-08 10:57:46.134 +03:00 [Information] Request finished HTTP/2 GET https://localhost:7068/WeatherForecast - - - 200 - application/json;+charset=utf-8 98.0405ms
